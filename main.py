@@ -1,7 +1,7 @@
 class Library():
     def __init__(self,list_of_books,Library_name):
         # creating a dictionary of all books keys
-        self.lend_data = {}
+        self.lend_data = {0}
         self.list_of_books = list_of_books
         self.library_name = Library_name
 
